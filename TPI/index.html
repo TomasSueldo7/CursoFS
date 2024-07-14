@@ -117,33 +117,35 @@
       <div class="contact-container">
         <h1><i class="fa-solid fa-phone"></i> Contacto</h1>
         <p>Completa el siguiente formulario con tus datos para que podamos ayudarte</p>
-        <form action="sumbit">
-          <label for="#nombre">Nombre</label>
-          <input type="text" id="nombre">
-          <label for="#apellido">Apellido</label>
-          <input type="text" id="apellido">
-          <label for="#correo">Correo electrónico</label>
-          <input type="text" id="correo">
-          <label for="#telefono">Teléfono</label>
-          <input type="text" id="telefono">
-          <label for="country">País</label>
-          <select id="country" name="country">
-            <option value="argentina">Argentina</option>
-            <option value="brazil">Brasil</option>
-            <option value="chile">Chile</option>
-            <option value="peru">Perú</option>
-          </select>
-          <label for="#consulta">Escribi tu consulta</label>
-          <input type="text" id="consulta">
-          <div class="novedades-container">
-            <label for="novedades" style="margin-top: 0;">¿Desea recibir novedades de nuestras promociones?</label>
-            <input type="checkbox" id="novedades" name="novedades" value="reading">
-          </div>
-          <div class="botones-container">
-            <button type="reset" id="resetButton">Limpiar campos</button>
-            <button type="submit" id="sumbitButton">Enviar consulta</button>
-          </div>
-        </form>
+        <div class="formulario">
+          <form action="sumbit">
+            <label for="#nombre">Nombre</label>
+            <input type="text" id="nombre">
+            <label for="#apellido">Apellido</label>
+            <input type="text" id="apellido">
+            <label for="#correo">Correo electrónico</label>
+            <input type="text" id="correo">
+            <label for="#telefono">Teléfono</label>
+            <input type="text" id="telefono">
+            <label for="country">País</label>
+            <select id="country" name="country">
+              <option value="argentina">Argentina</option>
+              <option value="brazil">Brasil</option>
+              <option value="chile">Chile</option>
+              <option value="peru">Perú</option>
+            </select>
+            <label for="#consulta">Escribi tu consulta</label>
+            <input type="text" id="consulta">
+            <div class="novedades-container">
+              <label for="novedades" style="margin-top: 0;">¿Desea recibir novedades de nuestras promociones?</label>
+              <input type="checkbox" id="novedades" name="novedades" value="reading">
+            </div>
+            <div class="botones-container">
+              <button type="reset" id="resetButton">Limpiar campos</button>
+              <button type="submit" id="sumbitButton">Enviar consulta</button>
+            </div>
+          </form>
+        </div>
       </div>
     </section>
     <footer>

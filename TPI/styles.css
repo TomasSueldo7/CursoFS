@@ -42,11 +42,11 @@ section h1{
 }
 
 section p{
-  font-size: x-small;
+  font-size: 0.9rem;
 }
 
 form{
-  font-size: x-small;
+  font-size: 0.9rem;
   display: flex;
   flex-direction: column;
   gap: 2%;
@@ -54,13 +54,13 @@ form{
 }
 
 form label, form select{
-  font-size: x-small;
+  font-size: 0.9rem;
   padding: 0.1rem;
   margin-top: 0.3rem;
 }
 
 button {
-  font-size: x-small; /* Ajusta el tamaño de fuente según tus necesidades */
+  font-size: 0.9rem; /* Ajusta el tamaño de fuente según tus necesidades */
   display: inline-block;
   padding: 0.5rem 1rem; /* Ajusta el padding según tus necesidades */
   background-color: #007bff; /* Color de fondo */
@@ -87,7 +87,7 @@ button {
 .logo {
   flex: 1;
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .nav-links {
@@ -110,7 +110,7 @@ border-bottom: 1px solid #444;
 
 .menu-icon {
   display: block;
-  font-size: 1.5rem;
+  font-size: 0.9rem;
   cursor: pointer;
   position: absolute;
   left: 1rem;
@@ -272,6 +272,11 @@ border-bottom: 1px solid #444;
 
 /* Media query para pantallas más anchas (desktop) */
 @media (min-width: 426px) {
+
+  section p{
+    font-size: 0.9rem;
+  }
+
 .nav-links {
   display: flex;
   flex-direction: row;
@@ -325,6 +330,17 @@ border-bottom: 1px solid #444;
 
 .footer-container p{
   text-align: left;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario form{
+  width: 80%;
 }
 
 }
